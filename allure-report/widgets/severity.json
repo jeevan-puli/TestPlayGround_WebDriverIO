@@ -1,1 +1,1 @@
-[{"uid":"3f8de386822a516e","name":"Homepage Access Test","time":{"start":1667008866455,"stop":1667008877010,"duration":10555},"status":"failed","severity":"normal"}]
+[{"uid":"2d64bad4931d56cc","name":"Homepage Access Test","time":{"start":1667014109579,"stop":1667014120258,"duration":10679},"status":"failed","severity":"normal"},{"uid":"4a98f92fa4c1d14c","name":"Sample App Redirect Test","time":{"start":1667014120259,"stop":1667014130717,"duration":10458},"status":"failed","severity":"normal"}]
