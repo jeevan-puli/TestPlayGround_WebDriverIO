@@ -12,7 +12,6 @@ describe('TestPlayground Application Home Page', async() => {
     })
 
     it('Sample App Redirect Test', async() => {
-        await browser.url("")
         await HomePage.ClickSampleApp()
         await sampeAppPage.userNameEleCss.waitForExist()
         await expect(browser).toHaveTitle("Sample Asspp")
