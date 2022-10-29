@@ -1,19 +1,24 @@
 const HomePage = require('../pageobjects/homePage')
-const sampeAppPage = require('../pageobjects/sampeAppPage')
+const sampeAppPage = require('../pageobjects/sampleAppPage')
 const expectchai = require('chai').expect
 
-describe('TestPlayground Application Home Page', async() => {
+describe('TestPlayground Application Home Page Test', async() => {
 
-    it('Homepage Access Test', async() => {
+    it('C1234 - User is able to access UITestingPlayground Home Page', async() => {
         await browser.url("")
         await console.log(await browser.getTitle())
-        await expect (browser).toHaveTitleContaining("UI Tesst")
+        await expect (browser).toHaveTitleContaining("UI Test")
         
     })
 
-    it('Sample App Redirect Test', async() => {
+    it('C1235 - User is able to access Sample App Page by clicking on sample app link in home page', async() => {
         await HomePage.ClickSampleApp()
-        await sampeAppPage.userNameEleCss.waitForExist()
-        await expect(browser).toHaveTitle("Sample Asspp")
+        await sampeAppPage.userNameElemXpt.waitForExist()
+        await expect(browser).toHaveTitle("Sample App")
+    })
+
+    it('C12346 - User is able to access Resources Page by clicking on Resources link in home page headder', async() => {
+        await HomePage.ClickResource()
+        await expect(browser).toHaveTitle("Resources")
     })
 })

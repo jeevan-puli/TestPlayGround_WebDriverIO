@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri Oct 28 23:28:40 EDT 2022","Fri Oct 28 23:28:50 EDT 2022","10458","","TestPlayground Application Home Page","","TestPlayground Application Home Page","Sample App Redirect Test","Sample App Redirect Test",""
-"failed","Fri Oct 28 23:28:29 EDT 2022","Fri Oct 28 23:28:40 EDT 2022","10679","","TestPlayground Application Home Page","","TestPlayground Application Home Page","Homepage Access Test","Homepage Access Test",""

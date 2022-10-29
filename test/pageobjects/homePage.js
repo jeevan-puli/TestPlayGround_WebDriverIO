@@ -1,47 +1,57 @@
 class Homepage{
 
-    get dynamicIdEleCss() { return $("a[href='/dynamicid']")}
+    get dynamicIdElemCss() { return $("a[href='/dynamicid']")}
 
-    get classAttributeEleCss() {return $("a[href='/classattr']")}
+    get classAttributeElemCss() {return $("a[href='/classattr']")}
 
-    get hiddenLayersEleXpath() {return $("//a[normalize-space()='Hidden Layers']")}
+    get hiddenLayersElmXpath() {return $("//a[normalize-space()='Hidden Layers']")}
 
-    get loadDelayEleCss() {return $("a[href='/loaddelay']")}
+    get loadDelayElemCss() {return $("a[href='/loaddelay']")}
 
-    get ajaxDateEleCss() {return $("a[href='/ajax']")}
+    get ajaxDateElemCss() {return $("a[href='/ajax']")}
 
-    get clientSideDelayEleCss() {return $("a[href='/clientdelay']")}
+    get clientSideDelayElemCss() {return $("a[href='/clientdelay']")}
 
-    get clickEleCss() {return $("a[href='/click']")}
+    get clickElemCss() {return $("a[href='/click']")}
 
-    get textInputEleCss() {return $("a[href='/textinput']")}
+    get textInputElemCss() {return $("a[href='/textinput']")}
 
-    get scrollBarEleCss() {return $("a[href='/scrollbars']")}
+    get scrollBarElemCss() {return $("a[href='/scrollbars']")}
 
-    get dynamicTableEleCss() {return $("a[href='/dynamictable']")}
+    get dynamicTableElemCss() {return $("a[href='/dynamictable']")}
 
-    get verifyTextEleCss() {return $("a[href='/verifytext']")}
+    get verifyTextElemCss() {return $("a[href='/verifytext']")}
 
-    get progressBarEleCss() {return $("a[href='/progressbar']")}
+    get progressBarElemCss() {return $("a[href='/progressbar']")}
 
-    get visibilityEleCss() {return $("a[href='/visibility']")}
+    get visibilityElemCss() {return $("a[href='/visibility']")}
 
-    get sampleAppEleCss() {return $("a[href='/sampleapp']")}
+    get sampleAppElemCss() {return $("a[href='/sampleapp']")}
 
-    get mouseOverEleCss() {return $("a[href='/mouseover']")}
+    get mouseOverElemCss() {return $("a[href='/mouseover']")}
 
-    get nonBreakingSpaceEleCss() {return $("a[href='/nbsp']")}
+    get nonBreakingSpaceElemCss() {return $("a[href='/nbsp']")}
 
-    get overlappedElementEleCss() {return $("a[href='/overlapped']")}
+    get overlappedElementElemCss() {return $("a[href='/overlapped']")}
 
-    get shadowDomEleCss() {return $("a[href='/shadowdom']")}
+    get shadowDomElemCss() {return $("a[href='/shadowdom']")}
+
+    get resourcesElemXpt() {return $("//a[@href='/resources']")}
 
     async ClickSampleApp(){
-        await this.sampleAppEleCss.click()
+        await this.sampleAppElemCss.click()
     }
 
     async ClickClientSideDelay(){
-        await this.clientSideDelayEleCss.click()
+        await this.clientSideDelayElemCss.click()
+    }
+
+    async ClickResource(){
+        await this.resourcesElemXpt.click()
+    }
+
+    async ClickAjaxData(){
+        await this.ajaxDateElemCss.click()
     }
 
 
