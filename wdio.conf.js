@@ -24,7 +24,8 @@ exports.config = {
     //
     specs: [
         //'./test/specs/**/*.js'
-        './test/specs/mouseOverPageTest.js'
+        //'./test/specs/mouseOverPageTest.js'
+        './test/specs/progressBarPageTest.js'
 
     ],
     // Patterns to exclude.

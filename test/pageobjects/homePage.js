@@ -58,6 +58,10 @@ class Homepage{
         await this.mouseOverElemCss.click()
     }
 
+    async ClickProgressBar(){
+        await this.progressBarElemCss.click()
+    }
+
 
 }
 
