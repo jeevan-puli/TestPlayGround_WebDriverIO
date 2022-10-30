@@ -54,6 +54,10 @@ class Homepage{
         await this.ajaxDateElemCss.click()
     }
 
+    async ClickMouseOver(){
+        await this.mouseOverElemCss.click()
+    }
+
 
 }
 
