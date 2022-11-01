@@ -22,10 +22,18 @@ exports.config = {
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
     //
+    suites: {
+        allTests:['./test/specs/**/*.js'],
+        homePageTests:['./test/specs/homePageTest.js'],
+        mouseOverPageTests:['./test/specs/mouseOverPageTest.js'],
+        progressBarPageTests:['./test/specs/progressBarPageTest.js'],
+        sampleAppTests:['./test/specs/sampleAppTest.js']
+      },
     specs: [
         //'./test/specs/**/*.js'
         //'./test/specs/mouseOverPageTest.js'
-        './test/specs/progressBarPageTest.js'
+        //'./test/specs/progressBarPageTest.js'
+        //'./test/specs/dynamicTablePageTest.js'
 
     ],
     // Patterns to exclude.

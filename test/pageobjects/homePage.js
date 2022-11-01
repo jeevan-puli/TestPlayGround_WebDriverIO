@@ -62,6 +62,11 @@ class Homepage{
         await this.progressBarElemCss.click()
     }
 
+    async ClickDynamicTable(){
+        await this.dynamicIdElemCss.click()
+    }
+
+
 
 }
 

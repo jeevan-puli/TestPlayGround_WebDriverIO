@@ -5,7 +5,7 @@ const expectchai = require('chai').expect
 describe('TestPlayground Application Home Page Test', async() => {
 
     it('C1234 - User is able to access UITestingPlayground Home Page', async() => {
-        await browser.url("")
+        await browser.url("/")
         await console.log(await browser.getTitle())
         await expect (browser).toHaveTitleContaining("UI Test")
         
