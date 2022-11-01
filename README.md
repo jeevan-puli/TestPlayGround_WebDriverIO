@@ -8,7 +8,7 @@ Step: 1
 
 Step: 2 : To run the tests do the following.
 
-1. npm run regression (To run all the tests).
+1. npm run test (To run all the tests).
 2. npm run homepage (to run homepage tests).
 3. npm run mouseoverpage (to run mouse over page tests).
 4. npm run progressbarpage (to run progressbar page tests).

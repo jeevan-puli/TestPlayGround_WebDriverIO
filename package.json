@@ -18,7 +18,7 @@
         "wdio-chromedriver-service": "^8.0.0"
     },
     "scripts": {
-        "regression": "npx wdio run wdio.conf.js --suite allTests",
+        "test": "npx wdio run wdio.conf.js --suite allTests",
         "homepage": "npx wdio run wdio.conf.js --suite homePageTests",
         "mouseoverpage": "npx wdio run wdio.conf.js --suite mouseOverPageTests",
         "progressbarpage": "npx wdio run wdio.conf.js --suite progressBarPageTests",
